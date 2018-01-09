@@ -1,0 +1,218 @@
+<head>
+	<link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>IOT ENGINEER</title>
+</head>
+<body>
+	<div class="container">
+		  <h1 class="display-5">SOFT KEY</h1>
+ 
+           <p style="font-size: 24px;height: 32px;margin: 20px" id="content">setting</p>
+          <div class="row justify-content-md-center" >
+            <button type="button" class="btn  btn-lg fa fa-wifi fa-2x" aria-hidden="true" id="smartconfig" style="margin: 20px"></button>
+            <button type="button" class="btn  btn-lg fa fa-volume-up fa-2x" aria-hidden="true" id="volumeup" style="margin: 20px"></button>
+            <button type="button" class="btn btn-lg fa fa-volume-down fa-2x" aria-hidden="true" id="volumedown" style="margin: 20px"></button>
+            <button type="button" class="btn btn-lg fa fa-volume-off fa-2x" aria-hidden="true" id="volumeoff" style="margin: 20px"></button>
+          </div>
+           <p style="font-size: 24px;height: 32px;margin: 20px" id="content">work mode</p>
+          <div class="row justify-content-md-center" >
+            <button type="button" class="btn btn-lg fa fa-microphone fa-2x" aria-hidden="true"  id="AIStart" style="margin: 20px"></button>
+            <button type="button" class="btn btn-lg fa fa-music fa-2x" aria-hidden="true" id="Localplay" style="margin: 20px"></button>
+          </div>
+           
+          <h4 style="font-size: 24px;height: 32px;margin: 20px" id="content">local player</h4>
+          <div class="row justify-content-md-center" >
+            <button type="button" class="btn  btn-lg fa fa-angle-double-left fa-2x" id="backclass" style="margin: 20px"></button>
+            <button type="button" class="btn  btn-lg fa fa-backward fa-2x" id="backward" style="margin: 20px"></button>
+            <button type="button" class="btn  btn-lg fa fa-play-circle fa-2x" id="continue" style="margin: 20px"></button>
+            <button type="button" class="btn  btn-lg fa fa-pause-circle fa-2x" id="pause" style="margin: 20px"></button>
+            <button type="button" class="btn  btn-lg fa fa-forward fa-2x " id="forward" style="margin: 20px"></button>
+            <button type="button" class="btn btn-lg fa fa-angle-double-right fa-2x" id="forwardclass" style="margin: 20px"></button>
+          </div>
+ 
+    
+	</div>
+</body>
+<script type="application/javascript">
+	$("#smartconfig").click(function(event) {
+			
+                $.ajax({
+                    type: 'POST',
+					          data: "{\"cmd\":1}",
+                    url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                       console.log("smartconfig start");
+                    }
+                });
+            });
+	$("#AIStart").click(function(event) {
+				 
+                $.ajax({
+                    type: 'POST',
+					          data: "{\"cmd\":2}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                       console.log("AIchat start");
+                    }
+                });
+            });
+    $("#Localplay").click(function(event) {
+                
+                
+                $.ajax({
+                    type: 'POST',
+                    data: "{\"cmd\":4}",
+                    url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                    console.log("Localplay start")
+                    }
+                });
+            });
+
+      $("#backward").click(function(event) {
+               
+                $.ajax({
+                    type: 'POST',
+                    data: "{\"cmd\":8}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                       console.log("player backward")
+                    }
+                });
+            });
+      $("#continue").click(function(event) {
+                 
+                $.ajax({
+                    type: 'POST',
+                    data: "{\"cmd\":16}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                       console.log("player continue")
+                    }
+                });
+            });
+       $("#pause").click(function(event) {
+                 
+                $.ajax({
+                    type: 'POST',
+                    data: "{\"cmd\":32}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                       console.log("player pause")
+                    }
+                });
+            });
+
+       $("#forward").click(function(event) {
+                 
+                $.ajax({
+                    type: 'POST',
+                    data: "{\"cmd\":64}",
+                    url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                       console.log("player forward")
+                    }
+                });
+            });
+      $("#forwardclass").click(function(event) {
+                
+                
+                $.ajax({
+                    type: 'POST',
+                   data: "{\"cmd\":128}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                    console.log("forwardclass start")
+                    }
+                });
+            });
+      $("#backclass").click(function(event) {
+                
+                
+                $.ajax({
+                    type: 'POST',
+                    data: "{\"cmd\":256}",
+                    url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                    console.log("backclass start")
+                    }
+                });
+            });
+
+       $("#volumeoff").click(function(event) {
+                
+                
+                $.ajax({
+                    type: 'POST',
+                   data: "{\"cmd\":512}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                    console.log("volumeoff start")
+                    }
+                });
+            });
+       $("#volumeup").click(function(event) {
+                
+                
+                $.ajax({
+                    type: 'POST',
+                   data: "{\"cmd\":1024}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                    console.log("volumeup start")
+                    }
+                });
+            });
+      $("#volumedown").click(function(event) {         
+                $.ajax({
+                    type: 'POST',
+                   data: "{\"cmd\":2048}",
+                     url: "/api/command/",
+                    dataType: "json"
+                }).done(function (data) {
+                   console.log(data.err) ;
+                   if(data.err==0){
+                    console.log("volumedown start")
+                    }
+                });
+            });
+</script>
+
+
+ 
