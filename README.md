@@ -43,3 +43,5 @@ ARDUINO_DEMO:RGB_LED,MPU9250
     number. Here's the QR code
 
 ![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/QR%20code.jpg)
+
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo1.png)![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo2.png)![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo3.png)  
