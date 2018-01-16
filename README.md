@@ -23,4 +23,11 @@ ARDUINO_DEMO:RGB_LED,MPU9250
     
     First of all to your SD card file backup, and then formatted, it is best not recommended the rest of the paper. 
     Finally, download the file into it.
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_4.png)
+
+(3) Serial debugging
+        
+    Insert the SD card,Use putty or minicom and other serial debugging tools shown below
+    
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/)
     
