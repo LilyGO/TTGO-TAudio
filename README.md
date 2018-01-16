@@ -1,9 +1,9 @@
 # TTGO-T9-RGB_LED-WM8978
 
-### ESP-IDF:https://github.com/espressif/esp-idf
+ESP-IDF:https://github.com/espressif/esp-idf
 IDF_DEMO:WM8978
 
-### ARDUINO:https://www.arduino.cc/en/Main/Software
+ARDUINO:https://www.arduino.cc/en/Main/Software
 ARDUINO_DEMO:RGB_LED,MPU9250
 
 ![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/image1.jpg)
@@ -31,4 +31,15 @@ ARDUINO_DEMO:RGB_LED,MPU9250
     
 ![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_7.png)
 
+    At this point we can hear the beautiful music
     
+    PS:If you want to modify your songs, you can replace it here 
+    
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_6.png)
+
+(4) Recording function
+
+    Here we need to manually configure WIFI, here I recommend using AI-Think's WeChat public 
+    number. Here's the QR code
+
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/QR%20code.jpg)
