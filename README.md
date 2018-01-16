@@ -1,9 +1,11 @@
 # TTGO-T9-RGB_LED-WM8978
 
 ESP-IDF:https://github.com/espressif/esp-idf
+
 IDF_DEMO:WM8978
 
 ARDUINO:https://www.arduino.cc/en/Main/Software
+
 ARDUINO_DEMO:RGB_LED,MPU9250
 
 ![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/image1.jpg)
@@ -46,5 +48,7 @@ ARDUINO_DEMO:RGB_LED,MPU9250
 
 <img width="270" height="480" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo1.png"/>  <img width="270" height="480" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo2.png"/>  <img width="270" height="480" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo3.png"/>
 
-<img width="500" height="400" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_1.png"/>   <img width="500" height="400" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_2.png"/>
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_3.png)
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_8.png)
+
   
