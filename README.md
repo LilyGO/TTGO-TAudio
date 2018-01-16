@@ -44,4 +44,8 @@ ARDUINO_DEMO:RGB_LED,MPU9250
 
 ![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/QR%20code.jpg)
 
-![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo1.png)![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo2.png)![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo3.png)  
+<img width="270" height="480" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo1.png"/>  <img width="270" height="480" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo2.png"/>  <img width="270" height="480" src="https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/photo3.png"/>
+
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_1.png)
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_2.png)
+  
