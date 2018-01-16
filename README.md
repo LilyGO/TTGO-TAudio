@@ -29,5 +29,6 @@ ARDUINO_DEMO:RGB_LED,MPU9250
         
     Insert the SD card,Use putty or minicom and other serial debugging tools shown below
     
-![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/)
+![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/Screenshot_7.png)
+
     
