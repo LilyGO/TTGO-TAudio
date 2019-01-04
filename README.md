@@ -8,6 +8,8 @@ ARDUINO:https://www.arduino.cc/en/Main/Software
 
 ARDUINO_DEMO:RGB_LED,MPU9250
 
+![image](https://github.com/LilyGO/TTGO-TAudio/blob/master/Images/T9V1.5.jpg)
+
 ![image](https://github.com/LilyGO/TTGO-T9-RGB_LED-WM8978/blob/master/Images/image1.jpg)
 
 ## 1.WM8978
