@@ -5,8 +5,9 @@
 #define SCL_PIN 18
 #endif
  
-MPU9250 mySensor;
- 
+//MPU9250 mySensor; //Before version 1.5
+MPU9250 mySensor(MPU9250_ADDRESS_AD0_HIGH); //version 1.5
+
 void setup() {
 while(!Serial);
  
